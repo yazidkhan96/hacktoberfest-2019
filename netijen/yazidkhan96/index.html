@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penjualan</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    	<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    	<script src="main.js"></script>
+		<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="hours">
+        <p id="jam"></p>
+    </div>
+<div class="container-fluid">
+	<div class="row mt-2">
+		<div class="col-sm-2 col-md-2">
+			<label for="nama_pelanggan" class="lab-input">Nama Pelanggan</label>			
+		</div>
+		<div class="col-sm-10 col-md-10">
+			<input type="text" name="" id="nama_pelanggan" class="form-control">
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-sm-2 col-md-2">
+			<label for="datepicker" class="lab-tanggal">Tanggal</label>
+		</div>
+		<div class="col-sm-2 col-md-2">
+			<input id="datepicker" width="240" class="form-control">
+		</div>
+		<div class="col-sm-1 col-md-1">
+			<label class="lab-jam">Jam</label>		
+		</div>
+		<div class="col-sm-7 col-md-7">
+			<div id="inp-jam"></div>
+	    </div>
+	</div><br>
+	<div class="row">
+		<div class="col-sm-2">
+			<label id="lbl-item">Item Yang dijual</label>
+		</div>
+	   <div class="col-sm-10">
+		   	 <table class="table table-bordered" id="tb">
+			  <thead>
+			    <tr>
+			      <th scope="col" width="3%">Item</th>
+			      <th scope="col" width="15%">Qty</th>
+			      <th scope="col" width="18%">Harga satuan</th>
+			      <th scope="col" width="17%">Sub total</th>
+			      <th scope="col" width="4%"></th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td><input type="text" class="input-item"></td>
+			      <td><input type="number" name="" class="number-decimal" id="qty"></td>
+			      <td><input type="number" name="" class="number-decimal" id="Hsatuan"></td>
+			      <td><input type="text" disabled="true" id="sbtotal"></td>
+			      <td>.</td>
+			    </tr>
+			  </tbody>
+			</table>
+	   </div>
+	</div>	
+</div>
+<div class="row">
+		<div class="col-md-12 add-row">
+			<a href="" id="addMore">+ Tambah Item Lain</a>
+		</div>
+	</div>
+</body>
+</html>

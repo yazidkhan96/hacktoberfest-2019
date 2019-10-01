@@ -1,0 +1,34 @@
+.lab-input{
+	margin-left: 39%;
+}
+#nama_pelanggan{
+	width: 39%;
+}
+.lab-tanggal{
+	margin-left: 73%;
+}
+.lab-jam{
+	margin-left: 70%;
+	padding: 3px;
+}
+#inp-jam{
+	width: 10%;
+	border: 1px solid #ced4da;
+	text-align: center;
+	margin-top: 5px;
+}
+#lbl-item{
+	margin-left: 42%;
+}
+.add-row{
+	margin-left: 17%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.input-item{
+	width: 117px;
+}
